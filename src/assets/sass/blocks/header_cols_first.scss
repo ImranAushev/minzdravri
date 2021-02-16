@@ -1,0 +1,41 @@
+.header__cols-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 0;
+
+    font-size: 1rem;
+    background: $blue_light;
+}
+
+.header__block-menu_top {
+    flex-basis: 90%;
+}
+
+.header__items {
+    padding: 0 20px 0 0;
+}
+
+.header__block-social_networks a {
+    color: $white;   
+}
+
+.header__block-social_networks a:first-child {
+    margin: 0 10px 0 0;   
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-around;
+}
+.header__list a {
+    color: white;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .hidden-md {
+        display: none;
+    }
+}

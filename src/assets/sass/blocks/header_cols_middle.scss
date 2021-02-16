@@ -1,0 +1,43 @@
+.header__cols_middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 12px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.cols_middle {    
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+@media (max-width: 576px) {
+    .header__cols_middle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__logo {
+        border: 1px solid gray;
+        padding: 0 10px;
+        margin: 0 0 15px 0;
+        .logo_text {
+            font-size: 1.2rem;
+        }
+        .logo_bottom {
+            font-size: 0.8rem;
+        }
+    }
+
+    .hotline {
+        order: 3;
+        margin: 0 0 15px 0;
+    }
+    
+    .header__question {
+        order: 2;
+        margin: 0 0 15px 0;
+    }
+}

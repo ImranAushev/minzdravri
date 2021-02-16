@@ -1,0 +1,16 @@
+.hotline {
+    display: block;
+    text-align: center;
+
+    margin: 0 5px 0 0;
+}
+
+.hotline__text {
+    display: inline;
+    padding: 7px;
+
+    background: $blue_light;
+    color: $white;
+
+    white-space: nowrap;
+}

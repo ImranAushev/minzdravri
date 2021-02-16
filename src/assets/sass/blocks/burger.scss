@@ -1,0 +1,10 @@
+.burger {
+    color: $white;
+    padding: 0 20px 0 0;
+}
+
+@media (min-width: 769px) {
+    .burger {
+        display: none;
+    }
+}

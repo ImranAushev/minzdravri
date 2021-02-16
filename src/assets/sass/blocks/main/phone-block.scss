@@ -1,0 +1,76 @@
+.phone-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.phone-list li {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+
+    width: 20%;
+
+    text-align: center;
+    padding: 18px;
+    margin: 0px 3px 12px 0px;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: .8rem;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.phone-list li h3 {
+    font-size: .8rem;
+
+    padding-bottom: 4px;
+
+    color: $blue_dark;
+}
+
+.phone-list li a {
+    font-size: 1rem;
+    font-weight: 600;
+
+    color: $blue_dark;
+}
+
+@media (max-width: 769px) {
+    .phone-list li {
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+    
+        width: 44%;
+    
+        text-align: center;
+        padding: 18px;
+        margin: 0px 3px 12px 0px;
+    
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: .8rem;
+    
+    }
+}
+
+@media (max-width: 465px) {
+    .phone-list li {
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+    
+        width: 90%;
+    
+        text-align: center;
+        padding: 18px;
+        margin: 0px 3px 12px 0px;
+    
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: .8rem;
+    
+    }
+}

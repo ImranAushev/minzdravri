@@ -1,0 +1,68 @@
+@import "vars";
+@import "resetstyles";
+
+///////////////////
+// Default styles
+///////////////////
+
+html {
+    font-size: 15px;
+}
+
+a {
+    color: $black;
+}
+
+body {
+    margin: 0px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: $black;
+    line-height: 1.5;
+
+    background-color: $white;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template: minmax(100px, auto) 1fr minmax(100px, auto) / 1fr;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+///////////////
+// blocks
+///////////////
+
+//header
+@import "./blocks/header.scss";
+@import "./blocks/header_cols_main.scss";
+@import "./blocks/header_cols_first.scss";
+@import "./blocks/header_cols_middle.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/hotline.scss";
+@import "./blocks/question.scss";
+@import "./blocks/btn.scss";
+@import "./blocks/header_cols_end.scss";
+@import "./blocks/search.scss";
+@import "./blocks/burger.scss";
+
+// main
+@import "./blocks/main/main.scss";
+@import "./blocks/main/phone-block.scss";
+@import "./blocks/main/main_other.scss";
+@import "./blocks/main/activity.scss";
+
+//footer
+@import "./blocks/footer/footer.scss";
+@import "./blocks/footer/adress.scss";
+

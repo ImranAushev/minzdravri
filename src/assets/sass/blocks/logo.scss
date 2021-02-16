@@ -1,0 +1,26 @@
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_text {
+    text-transform: uppercase;
+}
+
+.img {
+    max-width: 70px;
+
+    padding: 0 4% 0 0;
+}
+
+@media (max-width: 767px) {
+    .logo_right {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo_bottom {
+        display: none;
+    }
+}

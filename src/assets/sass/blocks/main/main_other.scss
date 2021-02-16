@@ -1,0 +1,51 @@
+.other-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.other-left {
+    width: 100%;
+    margin: 0 5px 0 0;
+}
+
+.other-left img {
+    width: 30%;
+    padding: 0 0 20px 0;
+}
+
+.other-rigth {
+    width: 100%;
+    background: $blue_light;
+
+    color: $white;
+}
+
+.together a {
+    border: 1px solid $gray_border;
+    padding: 3px 15px;
+
+    color: $white;
+}
+
+.together {
+    text-align: center;
+
+    padding: 50px;
+
+    border: 1px solid $gray_border;
+}
+
+.pb {
+    padding-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .other-wrap {
+        display: block;
+    }
+
+    .other-left {
+        margin: 0 5px 10px 0;
+    }
+}
